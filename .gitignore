@@ -1,0 +1,13 @@
+# Ocultar el entorno virtual (donde están instaladas las librerías)
+venv/
+.venv/
+
+# Ocultar las credenciales secretas
+.env
+
+# Ocultar la base de datos local para que no pese en GitHub
+chroma_db/
+
+# Archivos sueltos del sistema operativo
+.DS_Store
+Thumbs.db
